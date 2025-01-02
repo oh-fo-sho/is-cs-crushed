@@ -56,8 +56,7 @@ Docker의 핵심 구성 요소로, 컨테이너의 생성, 실행, 이미지 빌
 - CPU, 메모리, 네트워크 대역폭 등의 자원 제한 설정(Cgroups 활용)
 
 ## Docker Image
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/9df04d61-e6dc-42ad-812f-6dbca0b5afcf/image.png)
+<img width="639" alt="image" src="https://github.com/user-attachments/assets/f43786fb-a8fb-474a-919c-360bf66286d9" />
 
 컨테이너의 실행 환경을 정의하는 읽기 전용 템플릿으로, 애플리케이션과 그 실행에 필요한 모든 파일과 설정을 포함
 
@@ -135,9 +134,9 @@ Docker의 핵심 구성 요소로, 컨테이너의 생성, 실행, 이미지 빌
 
 ### **3. 계층의 동작 방식**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/42f22a0a-549b-4a0d-a93d-1c86dd793cbc/image.png)
+<img width="664" alt="image" src="https://github.com/user-attachments/assets/15405a5f-b2fa-46ac-9aa8-aff9cb3636a5" />
+<img width="846" alt="image" src="https://github.com/user-attachments/assets/02cd3e74-86cc-4f56-8ed2-3ec256380292" />
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/b25952d5-ef41-4376-a56d-3436208f3d56/image.png)
 
 1. **Dockerfile로 이미지 생성**
    - Dockerfile의 각 명령어는 새로운 **이미지 레이어**를 생성
@@ -201,7 +200,7 @@ Docker Image로부터 생성된 실행 환경. 독립적인 파일 시스템과 
   - 컨테이너는 기본적으로 외부 네트워크와 격리된 상태로 실행
   - 네트워크 설정을 통해 컨테이너 간 통신 및 외부 통신 가능
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/d8024e5b-6d6d-490d-bac6-429f30232dd9/image.png)
+<img width="867" alt="image" src="https://github.com/user-attachments/assets/66496c27-9818-48c8-bba6-f808b0b052a9" />
 
 ### **2. Docker 컨테이너의 생명주기**
 
@@ -290,7 +289,7 @@ Docker 네트워크는 **컨테이너 간의 통신**과 **외부 네트워크�
   - Docker는 컨테이너에 고유한 **IP 주소**를 할당
   - Docker 네트워크는 서브넷팅을 통해 IP 대역을 관리하며, 기본적으로 `/16` 서브넷을 사용
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/32dc76d6-5565-4f9a-bc03-08df06634036/image.png)
+<img width="749" alt="image" src="https://github.com/user-attachments/assets/b57179d8-7eb6-47c7-8582-218cea708d0c" />
 
 ### **2. 기본 네트워크 드라이버**
 
@@ -366,7 +365,7 @@ Docker 네트워크는 **컨테이너 간의 통신**과 **외부 네트워크�
 
 ### **3. Docker 네트워크 구성**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/c5f54d44-72af-45de-8eb6-94fc8bbde992/image.png)
+<img width="758" alt="image" src="https://github.com/user-attachments/assets/8b3e7f64-3b59-43cd-81b9-a2ba91e3b620" />
 
 ### **3-1. 기본 Bridge 네트워크의 내부 구성**
 
